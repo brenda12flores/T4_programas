@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="estilos/style.css">
+     <link rel="stylesheet" type="text/css" href="../../../librerias/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../../librerias/fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/menu.css">     
+    <script type="text/javascript" src="js/funciones.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Boletos</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <a class="navbar-brand" href="">
+          <img src="../../../imagenes/cliente2.png" width="50px">
+        </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse social_icon" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../../../cliente.html"><span class="fas fa-home "></span>Programas Pares
+                <span class="sr-only">(current)</span>
+              </a>
+        
+              <li class="nav-item active">
+        <a class="nav-link" href="../../../ProgramasT3/par/Practica2/index.html "><span class="far fa-clone"></span>T3P2</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link" href="../../../ProgramasT3/par/Practica4/index.html"><span class="far fa-clone"></span>T3P4</a>
+      </li>
+      
+
+      <li class="nav-item active">
+        <a class="nav-link" href="../../../ProgramasT3/par/Practica6/index.html"><span class="far fa-clone"></span>T4P6</a>
+      </li>
+
+      
+
+      <li class="nav-item active">
+        <a class="nav-link" href="../../../ProgramasT3/par/Practica8/index.php"><span class="far fa-clone"></span>T4P8</a>
+      </li>
+
+
+        
+        <li class="nav-item">
+          <a class="nav-link" href="../../../../ProyectoWeb/index.html" style="color: red"><span class="fas fa-window-close"></span>Salir</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
+        <br>
+	<h1><center>Costo de boletos de Autobuses la curva</center></h1>
+
+	 <form method="POST">
+                    <label for="kilometros">Kilometros a recorrer</label>
+                    <input type="text" name="kilometros" id="kilometros" class="form-control"><br><br>
+
+                    <label for="costo">Costo por kilometro</label>
+                    <input type="text" name="costo" id="costo" class="form-control"><br><br>
+
+                    <button class="btn btn-warning" onclick="operacion()">Determinar costo</button>
+     </form>
+ </div>
+
+</body>
+</html>
